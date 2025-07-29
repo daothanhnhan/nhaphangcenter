@@ -1,0 +1,19 @@
+.gb-footer-social{
+  li{
+    display: inline-block;
+    a{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #ff5112;
+      color: #ff5112;
+      transition:  all 0.5s;
+      &:hover{
+        background: #ff5112;
+        color: #fff;
+      }
+    }
+  }
+}

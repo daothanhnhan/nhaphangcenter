@@ -1,0 +1,52 @@
+/*Định nghĩa màu cho website*/
+
+//MÀU CHỦ ĐẠO CHO WEBSITE KÍNH MẮT
+$color-main: #ff5111;
+$color-border: #dcdcdc;
+
+// MÀU CHỮ
+$color-white: #fff;
+$color-grey: #a7a7a7;
+$color-1: #333;
+$color-2: #3a3a3a;
+$color-3: #999;
+$color-4: #f4f4f4;
+
+//COLOR ICON PRICE
+$color-5: #2e6c97;
+/*Định nghĩa font-family cho website*/
+
+@import "../plugin/fonts/opensan/opensans.css";
+
+$opensan: 'Open Sans';
+
+
+/*Định nghĩa font-size cho website*/
+h1{
+  font-size: 24px;
+  line-height: 1.5;
+}
+h2{
+  font-size: 22px;
+  line-height: 1.5;
+}
+h3{
+  font-size: 20px;
+  line-height: 1.5;
+}
+h4{
+  font-size: 18px;
+  line-height: 1.5;
+}
+h5{
+  font-size: 16px;
+  line-height: 1.5;
+}
+h6{
+  font-size: 14px;
+  line-height: 1.5;
+}
+p{
+  line-height: 1.5;
+}
+

@@ -1,0 +1,17 @@
+.uni-box-vote{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display:  flex;
+  span{
+    font-family: $opensan;
+    font-size: 14px;
+    color: #22292d;
+    float:  left;
+    i{
+      font-family: FontAwesome;
+      font-size: 12px;
+      letter-spacing: 1.2px;
+      color: $color-main;
+    }
+  }
+}

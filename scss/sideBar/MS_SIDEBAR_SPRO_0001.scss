@@ -1,0 +1,25 @@
+.list_category{
+  li{
+    border-bottom: 1px solid $color-border;
+    &:last-child{
+      border-bottom: none;
+    }
+    a{
+      display: block;
+      font-family: $opensan;
+      font-size: 13px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: $color-1;
+     line-height: 36px;
+      text-decoration: none;
+      transition: color .2s ease;
+      &:hover{
+        color: $color-main;
+      }
+    }
+  }
+}

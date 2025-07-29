@@ -1,0 +1,50 @@
+.gb-tintuc-item{
+  margin-bottom: 30px;
+  .item-img{
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: auto;
+      transition: all 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  .item-text{
+    h2{
+      a{
+        display: block;
+        font-family: $opensan;
+        font-size: 16px;
+        font-weight: bold;
+        color: $color-1;
+        line-height: 22px;
+        margin-bottom: 20px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main;
+        }
+      }
+    }
+    p{
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      max-height: 2em * 2;
+      line-height: 21px;
+      margin: 10px 0;
+    }
+    time{
+      font-family: $opensan;
+      font-size: 16px;
+      font-weight: bold;
+      i{
+        color: $color-main;
+      }
+    }
+  }
+}

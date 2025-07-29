@@ -1,0 +1,39 @@
+.shopping-cart {
+  position: relative;
+  color: #2E3841;
+  font-size: 18px;
+  i{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22292d;
+  }
+  .number-item {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #e57632;
+    top: -3px;
+    right: -5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}

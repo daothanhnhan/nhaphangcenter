@@ -1,0 +1,50 @@
+.gb-cachthucthanhtoan{
+  padding-bottom: 40px;
+  .gb-cachthucthanhtoan-right{
+    h1{
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      color: #333;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    ul{
+      li{
+        display: block;
+        color: #333;
+        font-size: 16px;
+        line-height: 26px;
+        span{
+          font-size: 16px;
+          font-weight: bold;
+          text-align: left;
+          color: #333;
+        }
+      }
+    }
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      color: #333;
+      margin: 20px 0;
+      text-transform: uppercase;
+    }
+    h4{
+      margin: 15px 0;
+      span{
+        font-weight: bold;
+        color: #333;
+        font-size: 16px;
+        text-decoration: underline;
+      }
+    }
+    p{
+      display: block;
+      color: #333;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}

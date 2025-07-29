@@ -1,0 +1,81 @@
+
+.gb-chi-tiet-add-to-cart{
+  .quantity{
+    float: left;
+    label{
+      font-family: $opensan;
+      font-size: 11px;
+      font-weight: bold;
+      line-height: 2.18;
+      text-align: left;
+      color: #666666;
+      text-transform: uppercase;
+    }
+    input{
+      width: 75px;
+      height: 36px;
+      border-radius: 0;
+      border: solid 1px #aeaeae;
+    }
+    .form-control{
+      margin-bottom: 0;
+    }
+    .form-group{
+      margin-bottom: 0;
+    }
+  }
+  .cart{
+    position: relative;
+    padding-top: 20px;
+  }
+  .single_add_to_cart_button{
+    position: absolute;
+    bottom: 0;
+    background: $color-main;
+    padding: 6px 24px;
+    font-family: $opensan;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid $color-main;
+    border-radius: 0;
+    margin-left: 10px;
+    transition:  all 0.5s;
+    &:hover{
+      color: $color-main;
+      background: transparent;
+    }
+  }
+  .product_meta{
+    padding-top: 25px;
+    span{
+      font-family: $opensan;
+      font-size: 14px;
+      font-weight: bold;
+      color: #404040;
+      text-transform: uppercase;
+      a{
+        font-family: $opensan;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        color: #808080;
+        text-transform: none;
+        &:after{
+          content: ",";
+        }
+        &:last-child{
+          &:after{
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}

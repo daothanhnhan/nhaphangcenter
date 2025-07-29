@@ -1,0 +1,147 @@
+.footer-main-content{
+  padding-top: 30px;
+  background-color: #272942;
+  border-top: 1px solid #ddd;
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+
+.copyright-area{
+  background: #ff5112;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  p{
+    color: #fff;
+    text-align: center;
+  }
+}
+
+
+
+/*FOOTER 2*/
+.footer-2{
+  ul{
+    li{
+      color: #fff;
+      display: flow-root;
+      margin-bottom: 20px;
+      .icons{
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ff5112;
+        color: #ff5112;
+        float: left;
+      }
+      p{
+        padding-left: 60px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+/*FOOTER 3*/
+.footer-3{
+  ul{
+    li{
+      border-left: 1px solid #ff5112;
+      margin-bottom: 10px;
+      a{
+        display: block;
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: #ff5112;
+        }
+      }
+    }
+  }
+}
+
+/*FOOTER 4*/
+.footer-4{
+  ul{
+    li{
+      width: 50%;
+      float: left;
+    }
+  }
+}
+
+/*FOOTER 5*/
+.footer-5{
+  ul{
+    li{
+      border-left: 1px solid #ff5112;
+      margin-bottom: 10px;
+      a{
+        display: block;
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: #ff5112;
+        }
+      }
+    }
+  }
+}
+
+/*FOOTER 5*/
+.footer-5{
+  ul{
+    li{
+      border-left: 1px solid #ff5112;
+      margin-bottom: 10px;
+      a{
+        display: block;
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: #ff5112;
+        }
+      }
+    }
+  }
+}
+
+/*FOOTER 6*/
+.footer-6{
+  ul{
+    li{
+      border-left: 1px solid #ff5112;
+      margin-bottom: 10px;
+      a{
+        display: block;
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+        padding-left: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: #ff5112;
+        }
+      }
+    }
+  }
+}

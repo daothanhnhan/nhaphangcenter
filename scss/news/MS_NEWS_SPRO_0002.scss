@@ -1,0 +1,76 @@
+.gb-chitiet-tintuc-content{
+  h1{
+    font-family: $opensan;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  h2{
+    font-family: $opensan;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  h3{
+    font-family: $opensan;
+    font-size: 22px;
+    margin: 20px 0;
+  }
+  h4{
+    font-family: $opensan;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  h5{
+    font-family: $opensan;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  h6{
+    font-family: $opensan;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  p{
+    font-family: $opensan;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  ul{
+    li{
+      list-style-type: inherit;
+      font-family: $opensan;
+      font-weight: 400;
+      color: #333;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+  .gb-author-time{
+    margin: 15px 0;
+    li{
+      display: inline-block;
+      position: relative;
+      font-family: $opensan;
+      font-weight: 600;
+      color: #333;
+      font-size: 16px;
+      line-height: 26px;
+      padding-right: 20px;
+      i{
+        color: $color-main;
+      }
+      &:after{
+        content: "-";
+        position: absolute;
+        right: 10px;
+      }
+      &:last-child{
+        &:after{
+          content: "";
+        }
+      }
+    }
+  }
+}
+

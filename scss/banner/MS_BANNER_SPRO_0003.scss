@@ -1,0 +1,25 @@
+.gb-banner-km{
+  .gb-banner-km-item{
+    a{
+      display: block;
+      width: 100%;
+      overflow: hidden;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      transition:  all 0.5s;
+      &:hover{
+        transform:  scale(1.1);
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

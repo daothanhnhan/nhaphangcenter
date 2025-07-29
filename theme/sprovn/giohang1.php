@@ -1,0 +1,8 @@
+
+<?php
+
+	// var_dump($_SESSION);
+
+?>
+
+<?php include_once DIR_CART."MS_CART_ARIOTOYS_0009.php"; ?>

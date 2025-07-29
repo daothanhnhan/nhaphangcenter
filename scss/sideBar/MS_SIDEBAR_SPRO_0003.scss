@@ -1,0 +1,45 @@
+.gb-sidebar-baivietmoinhat{
+  ul{
+    li{
+      display: flex;
+      border-bottom: 1px solid $color-border;
+      margin-bottom: 20px;
+      &:last-child{
+        margin-bottom: 0;
+        border-bottom: none;
+        .item{
+          padding-bottom: 0;
+        }
+      }
+      .item{
+        padding-bottom: 20px;
+        .item-img{
+          width: 50px;
+          float: left;
+        }
+        .item-text{
+          padding-left: 60px;
+          h2{
+            a{
+              display: block;
+              font-family: $opensan;
+              font-size: 13px;
+              font-weight: 600;
+              font-style: normal;
+              font-stretch: normal;
+              letter-spacing: normal;
+              text-align: left;
+              color: $color-1;
+              line-height: 15px;
+              text-decoration: none;
+              transition: color .2s ease;
+              &:hover{
+                color: $color-main;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

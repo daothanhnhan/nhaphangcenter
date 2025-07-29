@@ -1,0 +1,174 @@
+/*TOP HEADER*/
+.top-header{
+  border-bottom: 1px solid #dcdcdc;
+  background: #ececec;
+  .top-header-left{
+    ul{
+      li{
+        display: inline-block;
+        padding: 15px 10px;
+        line-height: 26px;
+        position: relative;
+        &:first-child{
+          margin: 0;
+          padding-left: 0;
+        }
+        &.hotrokhachhang{
+          border-right: 1px solid $color-border;
+          border-left: 1px solid $color-border;
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+          &:hover{
+            ul{
+              display: block;
+            }
+          }
+          ul{
+            display: none;
+            position: absolute;
+            border: 1px solid rgba(0,0,0,.15);
+            background: $color-white;
+            top: 56px;
+            left: 0;
+            min-width: 200px;
+            z-index: 9999;
+            li{
+              display: block;
+              padding: 0;
+              a{
+                display: block;
+                padding: 5px;
+                color: $color-1;
+                border-bottom: 1px solid $color-border;
+                transition:  all 0.5s;
+                &:hover{
+                  background: $color-main;
+                  color: $color-white;
+                }
+              }
+            }
+          }
+        }
+        &.sdttocall{
+          @media screen and (max-width: 767px) {
+            display:  none;
+          }
+          span{
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .top-header-right{
+    ul{
+      li{
+        display: inline-block;
+        padding: 15px 10px;
+        line-height: 26px;
+        position: relative;
+        a{
+          display: block;
+          color: $color-1;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main;
+          }
+        }
+        &.kiemtradon{
+          @media screen and (max-width: 991px) {
+            display:  none;
+          }
+        }
+        &.giohang{
+          @media screen and (max-width: 991px) {
+            position: absolute;
+            top: -55px;
+            right: 15px;
+          }
+        }
+        &.taikhoan{
+          border-right: 1px solid $color-border;
+          border-left: 1px solid $color-border;
+          @media screen and (max-width: 767px) {
+            display:  none;
+          }
+          &:hover{
+            ul{
+              display: block;
+            }
+          }
+          ul{
+            display: none;
+            position: absolute;
+            border: 1px solid rgba(0,0,0,.15);
+            background: $color-white;
+            top: 56px;
+            left: 0;
+            min-width: 200px;
+            z-index: 9999;
+            li{
+              display: block;
+              padding: 0;
+              a{
+                display: block;
+                padding: 5px 15px;
+                color: $color-1;
+                border-bottom: 1px solid $color-border;
+                transition:  all 0.5s;
+                &:hover{
+                  background: $color-main;
+                  color: $color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.gb-header-between-search{
+  margin-top: 10px;
+  .form-control{
+    height: 45px;
+  }
+  .btn{
+    height: 45px;
+  }
+  .btn-tim{
+    background: $color-main;
+    text-shadow: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: $opensan;
+  }
+}
+
+.gb-header-between-phuongthuc{
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  ul{
+    li{
+      width: 50%;
+      float: left;
+      a{
+        display: block;
+        color: $color-1;
+        .icons{
+          color: $color-main;
+          font-size: 30px;
+        }
+        .text{
+
+        }
+      }
+    }
+  }
+}

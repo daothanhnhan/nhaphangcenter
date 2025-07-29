@@ -1,0 +1,1 @@
+<?php include DIR_CART."MS_CART_SPRO_0005.php";?>
